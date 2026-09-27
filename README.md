@@ -4,7 +4,7 @@ Cuando terminas la primera vuelta de [Rubinite](https://store.steampowered.com/a
 
 ## Cómo instalar
 
-1. Descarga `BarraJefes.exe` de la [última versión](../../releases/latest).
+1. Descarga `BossHealthBar.exe` de la [última versión](../../releases/latest).
 2. Cierra el juego, abre el programa y elige la opción **1**.
 
 El programa encuentra el juego solo. Si no lo detecta, arrastra la carpeta del juego encima del .exe.
@@ -17,11 +17,11 @@ Windows puede mostrar el aviso de "Windows protegió tu PC" porque el programa n
 
 ## Qué cambia
 
-Solo toca una parte muy pequeña de `Rubinite_Data/Managed/Assembly-CSharp.dll`: la instrucción que decide ocultar la barra (`BossUI.Start`). Se puede usar junto con la [traducción al español](https://github.com/Vizpok/rubinite-traduccion-es) y otros mods sin que se pisen.
+Solo toca una parte muy pequeña de `Rubinite_Data/Managed/Assembly-CSharp.dll`: la instrucción que decide ocultar la barra (`BossUI.Start`). Se puede usar junto con la [traducción al español](https://github.com/Vizpok/rubinite-spanish-translation) y otros mods sin que se pisen.
 
 ## Complemento: vista previa del daño
 
-Si quieres ir un paso más allá, está el mod [Vista previa del daño](https://github.com/Vizpok/rubinite-vista-previa-danio). Marca en amarillo, dentro de la barra del jefe, cuánta vida le quitarías con la Estocada según las marcas que llevas acumuladas, y el tramo desaparece cuando te golpean y pierdes las marcas.
+Si quieres ir un paso más allá, está el mod [Vista previa del daño](https://github.com/Vizpok/rubinite-damage-preview). Marca en amarillo, dentro de la barra del jefe, cuánta vida le quitarías con la Estocada según las marcas que llevas acumuladas, y el tramo desaparece cuando te golpean y pierdes las marcas.
 
 Son mods separados. Puedes instalar solo uno o los dos, pero juntos tienen más sentido: con este la barra se ve siempre, y con el otro sabes cuánto le vas a quitar.
 

@@ -12,7 +12,7 @@ El parche cambia `ldarg.0; ldfld enableSecondRunHide` por `ldc.i4.0` (+ nop) y e
 último caso por `ldc.i4.0`, así que alwaysHide siempre queda en false. Se modifica la DLL en su
 sitio y se puede revertir byte a byte, sin pisar otros mods que toquen el mismo archivo.
 
-Uso:  BarraJefes.exe  (menú)       BarraJefes.exe [--instalar | --desinstalar] [ruta_del_juego]
+Uso:  BossHealthBar.exe  (menú)       BossHealthBar.exe [--instalar | --desinstalar] [ruta_del_juego]
 """
 import os, re, struct, sys
 
@@ -56,7 +56,7 @@ def buscar_juego(arg):
         if c and os.path.isfile(os.path.join(c, *RUTA_DLL)):
             return c
     salir('No encontré el juego. Arrastra la carpeta de Rubinite sobre el programa, '
-          'o pásala como argumento: BarraJefes.exe "D:\\...\\Rubinite"')
+          'o pásala como argumento: BossHealthBar.exe "D:\\...\\Rubinite"')
 
 
 def salir(mensaje=None, codigo=1):
