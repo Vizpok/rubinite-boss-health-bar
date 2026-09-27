@@ -2,6 +2,8 @@
 
 Cuando terminas la primera vuelta de [Rubinite](https://store.steampowered.com/app/1845250/Rubinite/), el juego deja de mostrar la barra de vida de los jefes. Pasa en la segunda vuelta de la historia y también al repetir en la Zona de Desafío las peleas en su versión "real". Este mod hace que la barra se vea siempre, como en la primera vuelta. Lo demás de las peleas no cambia.
 
+![Barra de vida de La Bestia en la parte superior de la pantalla](capturas/barra-jefe.webp)
+
 ## Cómo instalar
 
 1. Descarga `BossHealthBar.exe` de la [última versión](../../releases/latest).
