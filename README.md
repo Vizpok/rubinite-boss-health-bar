@@ -6,8 +6,8 @@ Cuando terminas la primera vuelta de [Rubinite](https://store.steampowered.com/a
 
 ## Cómo instalar
 
-1. Descarga `BossHealthBar.exe` de la [última versión](../../releases/latest).
-2. Cierra el juego, abre el programa y elige la opción **1**.
+1. Descarga `BossHealthBar-v1.0.zip` de la [última versión](../../releases/latest) y descomprímelo.
+2. Cierra el juego, abre `BossHealthBar.exe` y elige la opción **1**. Deja los archivos que vienen en el .zip juntos en la misma carpeta.
 
 El programa encuentra el juego solo. Si no lo detecta, arrastra la carpeta del juego encima del .exe.
 
@@ -20,6 +20,12 @@ Windows puede mostrar el aviso de "Windows protegió tu PC" porque el programa n
 ## Qué cambia
 
 Solo toca una parte muy pequeña de `Rubinite_Data/Managed/Assembly-CSharp.dll`: la instrucción que decide ocultar la barra (`BossUI.Start`). Se puede usar junto con la [traducción al español](https://github.com/Vizpok/rubinite-spanish-translation) y otros mods sin que se pisen.
+
+## Compilar
+
+El código está en `src/`. Con el compilador de C# que ya trae Windows (.NET Framework 4) y `Mono.Cecil.dll` en la misma carpeta, ejecuta `compilar.bat`.
+
+El programa incluye [Mono.Cecil](https://github.com/jbevain/cecil) (licencia MIT, ver `LICENCIAS-TERCEROS.txt`). Solo se usa para leer dónde está el método dentro de la DLL.
 
 ## Complemento: vista previa del daño
 
