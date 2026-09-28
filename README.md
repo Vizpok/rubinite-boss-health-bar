@@ -1,12 +1,14 @@
 # Rubinite: barra de vida de los jefes siempre visible
 
+### ⬇️ [Descargar BossHealthBar-v1.0.zip](https://github.com/Vizpok/rubinite-boss-health-bar/raw/main/BossHealthBar-v1.0.zip)
+
 Cuando terminas la primera vuelta de [Rubinite](https://store.steampowered.com/app/1845250/Rubinite/), el juego deja de mostrar la barra de vida de los jefes. Pasa en la segunda vuelta de la historia y también al repetir en la Zona de Desafío las peleas en su versión "real". Este mod hace que la barra se vea siempre, como en la primera vuelta. Lo demás de las peleas no cambia.
 
 ![Barra de vida de La Bestia en la parte superior de la pantalla](capturas/barra-jefe.webp)
 
 ## Cómo instalar
 
-1. Descarga `BossHealthBar-v1.0.zip` de la [última versión](../../releases/latest) y descomprímelo.
+1. Descarga el .zip con el enlace de arriba y descomprímelo.
 2. Cierra el juego, abre `BossHealthBar.exe` y elige la opción **1**. Deja los archivos que vienen en el .zip juntos en la misma carpeta.
 
 El programa encuentra el juego solo. Si no lo detecta, arrastra la carpeta del juego encima del .exe.
@@ -23,9 +25,9 @@ Solo toca una parte muy pequeña de `Rubinite_Data/Managed/Assembly-CSharp.dll`:
 
 ## Compilar
 
-El código está en `src/`. Con el compilador de C# que ya trae Windows (.NET Framework 4) y `Mono.Cecil.dll` en la misma carpeta, ejecuta `compilar.bat`.
+El código está en `codigo/`. Con el compilador de C# que ya trae Windows (.NET Framework 4) y `Mono.Cecil.dll` en la misma carpeta, ejecuta `compilar.bat`.
 
-El programa incluye [Mono.Cecil](https://github.com/jbevain/cecil) (licencia MIT, ver `LICENCIAS-TERCEROS.txt`). Solo se usa para leer dónde está el método dentro de la DLL.
+El programa incluye [Mono.Cecil](https://github.com/jbevain/cecil) (licencia MIT, ver `codigo/LICENCIAS-TERCEROS.txt`). Solo se usa para leer dónde está el método dentro de la DLL.
 
 ## Complemento: vista previa del daño
 

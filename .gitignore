@@ -1,2 +1,7 @@
-*.dll
-*.exe
+codigo/build/
+codigo/dist/
+*.spec
+__pycache__/
+*.pyc
+codigo/*.dll
+codigo/*.exe
